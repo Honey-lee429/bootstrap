@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="icon" href="/generation-brasil/bootstrap/img/3600910.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .rede-social {
+            max-width: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark" href="#">Hanely Taniguci</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Teste</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Redes Sociais
+                        </a>
+                        <ul class="dropdown-menu text-light" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/hanely-taniguchi/"
+                                    target="blank">LinkedIn</a></li>
+                            <li><a class="dropdown-item" href="https://www.facebook.com/hanely.menezes"
+                                    target="blank">Facebook</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/Honey-lee429"
+                                    target="blank">GitHub</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Grid
+    <div class="container"> tirar o container, ou usar container-fluid, as colunas passam a ocupar 100% da tela
+        <div class="row mt-3 d-flex justify-content-center">
+            <div class="col-md-2 p-0">
+                <div class="bg-danger">3 colunas</div>
+            </div>
+            <div class="col">
+                <div class="bg-danger">3 colunas</div>
+            </div>
+            <div class="col">
+                <div class="bg-danger">3 colunas</div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src=https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/90337021/original/d2d17e7f58f892c0000de124495b544323843b7d/do-and-fix-any-html-css-js-bootstrap-errors.jpg
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DtQ5czzK--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/i/vikgj9pssaffio4xbb7j.png"
+                    class="d-block w-30" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.ytimg.com/vi/1MmRp-NXmJI/maxresdefault.jpg" class="d-block w-30" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-secondary bg-gradient text-white">
+        <div class="container ">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+        </div>
+    </div>
+
+    <!-- cards -->
+    <div class="container mb-0">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Didital Innovation/netflix/img/1.jpg" class="card-img-top w-75 m-auto">
+                    <div class="card-body">
+                        <h5 class="card-title">Tom & Jerry: O Filme</h5>
+                        <p class="card-text">Adaptação dos desenhos, Tom & Jerry: O Filme mostra uma das rivalidades mais amadas da história que é reacendida quando Jerry se muda para o melhor hotel de Nova York na véspera do "casamento do século", forçando a desesperada organizadora do evento (Chloe Moretz) a contratar Tom para se livrar do rato. Mas logo surge um problema ainda maior: um funcionário diabolicamente ambicioso conspira contra os três. Uma combinação de animação clássica e live-action.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Didital Innovation/netflix/img/10.jpg" class="card-img-top w-75 m-auto" >
+                    <div class="card-body">
+                        <h5 class="card-title">Flash</h5>
+                        <p class="card-text">O investigador forense Barry Allen (Grant Gustin) sofre um acidente em seu laboratório: ele leva um banho de produtos químicos e, em seguida, é atingido por um raio. A partir disso, ele se torna capaz de canalizar os poderes do "Campo de Velocidade" e de se locomover com uma rapidez sobre-humana. De máscara e uniforme vermelhos, Barry assume a identidade do super-herói Flash e começa a usar suas habilidades para patrulhar Central City, contando com a ajuda dos cientistas da S.T.A.R. Labs. Ao mesmo tempo que detém vilões, ele procura descobrir quem está por trás do assassino de sua mãe.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/Didital Innovation/netflix/img/2.jpg" class="card-img-top w-75 m-auto">
+                    <div class="card-body">
+                        <h5 class="card-title">Mulher Maravilha</h5>
+                        <p class="card-text">Em Mulher-Maravilha, treinada desde cedo para ser uma guerreira imbatível, Diana Prince (Gal Gadot) nunca saiu da paradisíaca ilha em que é reconhecida como princesa das Amazonas. Quando o piloto Steve Trevor (Chris Pine) se acidenta e cai numa praia do local, ela descobre que uma guerra sem precedentes está se espalhando pelo mundo e decide deixar seu lar certa de que pode parar o conflito. Lutando para acabar com todas as lutas, Diana percebe o alcance de seus poderes e sua verdadeira missão na Terra.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col order-first">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis distinctio quos incidunt fuga,
+                    asperiores enim dolore cumque aspernatur repudiandae, hic, nobis vitae itaque magnam velit sit porro
+                    adipisci quis quo.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt veritatis quod animi quidem autem
+                    est hic exercitationem voluptatum, ad magni nemo corporis error necessitatibus ut nam dicta libero
+                    fugit vel!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem odit quasi hic earum, modi
+                    quidem fugit in at unde atque, nostrum beatae doloremque, amet consequatur itaque dicta nemo
+                    officiis quisquam!</p>
+            </div>
+            <div class="col order-last">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zEi62PpFezU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="row">
+            <div class="col-12 d-flex flex-column align-items-center p-1">
+                <p class="mb-0"> 2021 - by Hanely Taniguchi &copy</p>
+                <a href="https://brazil.generation.org/">Curso Generation Brasil</a>
+            </div>
+            <div class="col d-flex justify-content-center mt-1 mb-4">
+                <a href="https://www.facebook.com/hanely.menezes" target="_blank" class="p-1">
+                    <img class="rede-social" src="/generation-brasil/fundamentos-web/img/facebood.png" alt="">
+                </a>
+
+                <a href="https://www.linkedin.com/in/hanely-taniguchi/" target="_blank" class="p-1">
+                    <img class="rede-social" src="/generation-brasil/fundamentos-web/img/linkedin.png" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
